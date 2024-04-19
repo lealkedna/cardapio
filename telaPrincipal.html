@@ -6,24 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+
     <section class="menu">
-        <div class="title">
-            <h2>Nosso Cardápio</h2>
-            <div class="underline"></div>
+        <div class="combo">
+            <!-- <div class="title">
+                <h2>Nosso Cardápio</h2>
+                <div class="underline"></div>
+            </div> -->
+            <div class="btn-container">
+                <button class="filter-btn" type="button" data-id="todos">Todos</button>
+                <button class="filter-btn" type="button" data-id="Salgados">Salgados</button>
+                <button class="filter-btn" type="button" data-id="Bebidas">Bebidas</button>
+                <button class="filter-btn" type="button" data-id="Sobremesas">Sobremesas</button>
+                <button class="filter-btn" type="button" data-id="tipicas">Típicas</button>
+                <button class="filter-btn" type="button" data-id="pizza">Pizza</button>
+                <button class="filter-btn" type="button" data-id="hamburguer">Hamburguer</button>
+            </div>
+
         </div>
-        <div class="btn-container">
-            <button class="filter-btn" type="button" data-id="todos">todos</button>
-            <button class="filter-btn" type="button" data-id="Salgados">Salgados</button>
-            <button class="filter-btn" type="button" data-id="Bebidas">Bebidas</button>
-            <button class="filter-btn" type="button" data-id="Sobremesas">Sobremesas</button>
-            <button class="filter-btn" type="button" data-id="tipicas">Típicas</button>
-            <button class="filter-btn" type="button" data-id="pizza">Pizza</button>
-            <button class="filter-btn" type="button" data-id="hamburguer">Hamburguer</button>
+        <div class="about">
+            <img src="img/manjar.jpeg" alt="" class="logo">
         </div>
+
         <div class="section-center">
             <article class="menu-item">
                 <img src="img/coxinha.jpeg" alt="" class="photo">
@@ -39,6 +50,7 @@
                         debitis
                         quae ea quasi eaque commodi perferendis beatae.
                     </p>
+                    <button type="button" class="btn btn-outline-success" id="whatsapp-btn"><a href="https://wa.me/5589981034501" target="_blank">Fazer pedido</a></button>
                 </div>
             </article>
 
@@ -56,6 +68,7 @@
                         debitis
                         quae ea quasi eaque commodi perferendis beatae.
                     </p>
+                    <button type="button" class="btn btn-outline-success" id="whatsapp-btn"><a href="https://wa.me/5589981034501" target="_blank">Fazer pedido</a></button>
                 </div>
             </article>
 
@@ -73,11 +86,22 @@
                         debitis
                         quae ea quasi eaque commodi perferendis beatae.
                     </p>
+                    <button type="button" class="btn btn-outline-success" id="whatsapp-btn"><a href="https://wa.me/5589981034501" target="_blank">Fazer pedido</a></button>
                 </div>
             </article>
         </div>
+
+
+        <footer>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </footer>
+
     </section>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
