@@ -47,7 +47,7 @@ p {
 .combo{
     position: fixed;
     background: transparent;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     width: 100%;
 }
 

@@ -327,7 +327,7 @@ function displayMenuItems(menuItems) {
             <p class="item-text">
                 ${item.descricao}
             </p>
-            <button class="btn btn-outline-success"><a href="https://wa.me/5589981034501" target="_blank">${item.btn}</a></button>
+            <button class="btn btn-outline-success"> <a href="https://wa.me/5589981034501" target="_blank">${item.btn}</a></button>
         </div>
     </article>`;
     });
