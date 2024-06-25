@@ -327,9 +327,10 @@ function displayMenuItems(menuItems) {
             <p class="item-text">
                 ${item.descricao}
             </p>
-            <button class="btn btn-outline-success"> <a href="https://wa.me/5589981034501" target="_blank">${item.btn}</a></button>
         </div>
     </article>`;
+
+    // <!-- <button type="button" class="btn btn-outline-success" id="whatsapp-btn"><a href="https://wa.me/5589981034501" target="_blank" rel="" >Fazer pedido</a></button> -->
     });
     displayMenu = displayMenu.join("");
 
